@@ -172,8 +172,8 @@ class SettingFragment extends PreferenceFragment with OnSharedPreferenceChangeLi
       true
     })
 
-    aboutPref.setSummary(s"AikoR: v${BuildConfig.VERSION_NAME}; aiko-core: v${Tun2socks.checkXVersion()}")
-	aboutPref.setOnPreferenceClickListener(_ => {
+    aboutPref.setSummary(s"AikoR VPN: v${BuildConfig.VERSION_NAME}; aiko-core: v${Tun2socks.checkXVersion()}")
+    aboutPref.setOnPreferenceClickListener(_ => {
       val web = new WebView(activity)
       web.loadUrl("file:///android_asset/pages/about.html")
       web.setWebViewClient(new WebViewClient() {
