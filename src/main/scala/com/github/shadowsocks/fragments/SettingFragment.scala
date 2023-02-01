@@ -173,6 +173,28 @@ class SettingFragment extends PreferenceFragment with OnSharedPreferenceChangeLi
     })
 
     aboutPref.setSummary(s"AikoR: v${BuildConfig.VERSION_NAME}; aiko-core: v${Tun2socks.checkXVersion()}")
+	aboutPref.setOnPreferenceClickListener(_ => {
+      val web = new WebView(activity)
+      web.loadUrl("file:///android_asset/pages/about.html")
+      web.setWebViewClient(new WebViewClient() {
+        override def shouldOverrideUrlLoading(view: WebView, url: String): Boolean = {
+          try {
+            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)))
+          } catch {
+            case _: android.content.ActivityNotFoundException => // Ignore
+          }
+          true
+        }
+      })
+
+      new AlertDialog.Builder(activity)
+        .setTitle(getString(R.string.about_title).formatLocal(Locale.ENGLISH, BuildConfig.VERSION_NAME))
+        .setNegativeButton(getString(android.R.string.ok), null)
+        .setView(web)
+        .create()
+        .show()
+      true
+    })
 
     findPreference("logcat").setOnPreferenceClickListener(_ => {
       val et_logcat = new EditText(activity)
