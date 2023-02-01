@@ -467,7 +467,7 @@ class ProfileManager(dbHelper: DBHelper) {
 
   def createDefault(): Profile = {
     val profile = new Profile {
-      name = "项目地址: https://github.com/xxf098"
+      name = "Mua gói tại: https://aikocute.me"
       host = "1.2.3.4"
       remotePort = 1234
       password = "ssrray"

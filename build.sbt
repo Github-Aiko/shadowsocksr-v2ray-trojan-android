@@ -4,9 +4,9 @@ dexMaxHeap := "4g"
 enablePlugins(AndroidApp)
 android.useSupportVectors
 
-name := "shadowsocksr-v2ray"
+name := "aikor-vpn"
 
-applicationId := "com.xxf098.ssrray"
+applicationId := "com.aikocute.aiko"
 
 val supportLibVersion = "27.1.1"
 platformTarget := "android-29"

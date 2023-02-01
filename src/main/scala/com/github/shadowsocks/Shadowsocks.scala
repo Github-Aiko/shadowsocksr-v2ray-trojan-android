@@ -506,7 +506,7 @@ class Shadowsocks extends AppCompatActivity with ServiceBoundContext {
       case p if p.isVless => "VLess"
       case p if p.isTrojan => "Trojan"
       case p if p.isShadowSocks => "Shadowsocks"
-      case _ => "shadowsocks R"
+      case _ => "AikoR - VPN"
     }.getOrElse("shadowsocks R")
     toolbar.setTitle(title)
   }

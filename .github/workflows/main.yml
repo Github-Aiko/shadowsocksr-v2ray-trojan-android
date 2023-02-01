@@ -62,8 +62,8 @@ jobs:
     - name: Upload APK
       uses: actions/upload-artifact@v1
       with:
-        name: shadowsocksr-v2ray-build-release
-        path: target/android/output/shadowsocksr-v2ray-release.apk
+        name: aikor-vpn-build-release
+        path: target/android/output/aikor-vpn-release.apk
     - name: Check Build
       run: |
         ls -thls ~/.android-cache
