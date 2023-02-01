@@ -1,9 +1,11 @@
+
 name: build
 
 on:
   push:
     branches:
-      - master
+      - 'xxf098/develop'
+      - 'xxf098/master'
     tags:
       - '*'
 
