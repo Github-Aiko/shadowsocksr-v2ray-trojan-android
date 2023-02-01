@@ -470,7 +470,7 @@ class ProfileManager(dbHelper: DBHelper) {
       name = "Mua gói tại: https://aikocute.me"
       host = "1.2.3.4"
       remotePort = 1234
-      password = "ssrray"
+      password = "aikor"
       protocol = "auth_chain_a"
       obfs = "http_simple"
       method = "none"

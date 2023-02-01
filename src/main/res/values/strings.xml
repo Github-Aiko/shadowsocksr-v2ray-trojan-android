@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-  <string name="app_name">SSRRAY</string>
+  <string name="app_name">AikoR</string>
   <string name="quick_toggle">Toggle</string>
 
   <!-- global/misc category -->
@@ -171,7 +171,7 @@
   <string name="ignore_battery_optimization">Request ignore battery optimizations</string>
   <string name="ignore_battery_optimization_summary">Click to request trigger Ignore the battery optimization, to avoid background hiccups caused by hibernation when off screen, will increase the battery consumption, may not be triggered properly on some devices.</string>
   <string name="about">About</string>
-  <string name="about_title">SSRRAY %s</string>
+  <string name="about_title">AikoR %s</string>
   <string name="update_v2ray_rules_dat">Update V2Ray Rules Dat File</string>
   <string name="share">Share</string>
   <string name="share_message">Scan QR code or use Android Beam (NFC)</string>

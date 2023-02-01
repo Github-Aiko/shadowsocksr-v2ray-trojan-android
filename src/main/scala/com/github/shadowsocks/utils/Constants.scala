@@ -421,13 +421,13 @@ object State {
 }
 
 object Action {
-  val SERVICE = "com.xxf098.ssrray.SERVICE"
-  val CLOSE = "com.xxf098.ssrray.CLOSE"
-  val QUICK_SWITCH = "com.xxf098.ssrray.QUICK_SWITCH"
-  val SCAN = "com.xxf098.ssrray.intent.action.SCAN"
-  val SORT = "com.xxf098.ssrray.intent.action.SORT"
-  val SORT_DOWNLOAD = "com.xxf098.ssrray.intent.action.SORT_DOWNLOAD"
-  val STOP_TEST = "com.xxf098.ssrray.STOP_TEST"
+  val SERVICE = "com.aikocute.aiko.SERVICE"
+  val CLOSE = "com.aikocute.aiko.CLOSE"
+  val QUICK_SWITCH = "com.aikocute.aiko.QUICK_SWITCH"
+  val SCAN = "com.aikocute.aiko.intent.action.SCAN"
+  val SORT = "com.aikocute.aiko.intent.action.SORT"
+  val SORT_DOWNLOAD = "com.aikocute.aiko.intent.action.SORT_DOWNLOAD"
+  val STOP_TEST = "com.aikocute.aiko.STOP_TEST"
 }
 
 object Route {

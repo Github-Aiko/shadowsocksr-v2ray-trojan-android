@@ -83,11 +83,11 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
             <intent-filter>
-                <action android:name="com.xxf098.ssrray.intent.action.SORT"/>
+                <action android:name="com.aikocute.aiko.intent.action.SORT"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
             <intent-filter>
-                <action android:name="com.xxf098.ssrray.intent.action.SCAN"/>
+                <action android:name="com.aikocute.aiko.intent.action.SCAN"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
             <intent-filter>
@@ -160,7 +160,7 @@
                   android:taskAffinity=""
                   android:theme="@style/PopupTheme.QuickSwitch">
             <intent-filter>
-                <action android:name="com.xxf098.ssrray.QUICK_SWITCH" />
+                <action android:name="com.aikocute.aiko.QUICK_SWITCH" />
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
@@ -240,7 +240,7 @@
 
         <provider
             android:name="android.support.v4.content.FileProvider"
-            android:authorities="com.xxf098.ssrray.fileprovider"
+            android:authorities="com.aikocute.aiko.fileprovider"
             android:grantUriPermissions="true"
             android:exported="false">
             <meta-data

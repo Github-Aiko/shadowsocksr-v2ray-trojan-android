@@ -216,7 +216,7 @@ class DownloadTestService extends Service {
 //    val file = new File(pngPath)
     var data = Uri.fromFile(file)
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-      data = FileProvider.getUriForFile(context, "com.xxf098.ssrray.fileprovider", file)
+      data = FileProvider.getUriForFile(context, "com.aikocute.aiko.fileprovider", file)
     }
 //    context.grantUriPermission(packageName, uri, Intent.FLAG_GRANT_WRITE_URI_PERMISSION | Intent.FLAG_GRANT_READ_URI_PERMISSION);
     intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
