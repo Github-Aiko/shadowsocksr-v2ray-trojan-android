@@ -2,9 +2,8 @@ name: build
 
 on:
   push:
-    branches:
-      - 'xxf098/develop'
-      - 'xxf098/master'
+    tags:
+      - '*'
 
 jobs:
   build:
